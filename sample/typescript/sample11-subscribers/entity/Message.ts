@@ -1,4 +1,4 @@
-import {Column, Entity, PrimaryGeneratedColumn} from "typeorm";
+import { Column, Entity, PrimaryGeneratedColumn } from "typeorm";
 
 @Entity()
 export class Message {
@@ -12,4 +12,5 @@ export class Message {
     @Column()
     receiver: number;
 
+    test: string;
 }
